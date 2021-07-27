@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC0B2E626AFA18100CAE4EB /* burger_to_goApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC0B2E526AFA18100CAE4EB /* burger_to_goApp.swift */; };
+		FEC0B2E826AFA18100CAE4EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC0B2E726AFA18100CAE4EB /* ContentView.swift */; };
+		FEC0B2EA26AFA18200CAE4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC0B2E926AFA18200CAE4EB /* Assets.xcassets */; };
+		FEC0B2ED26AFA18200CAE4EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC0B2EC26AFA18200CAE4EB /* Preview Assets.xcassets */; };
+		FEC0B2F826AFA18200CAE4EB /* burger_to_goTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC0B2F726AFA18200CAE4EB /* burger_to_goTests.swift */; };
+		FEC0B30326AFA18200CAE4EB /* burger_to_goUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC0B30226AFA18200CAE4EB /* burger_to_goUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEC0B2F426AFA18200CAE4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC0B2DA26AFA18100CAE4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC0B2E126AFA18100CAE4EB;
+			remoteInfo = "burger to go";
+		};
+		FEC0B2FF26AFA18200CAE4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC0B2DA26AFA18100CAE4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC0B2E126AFA18100CAE4EB;
+			remoteInfo = "burger to go";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEC0B2E226AFA18100CAE4EB /* burger to go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "burger to go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC0B2E526AFA18100CAE4EB /* burger_to_goApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burger_to_goApp.swift; sourceTree = "<group>"; };
+		FEC0B2E726AFA18100CAE4EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEC0B2E926AFA18200CAE4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEC0B2EC26AFA18200CAE4EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEC0B2EE26AFA18200CAE4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC0B2F326AFA18200CAE4EB /* burger to goTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "burger to goTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC0B2F726AFA18200CAE4EB /* burger_to_goTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burger_to_goTests.swift; sourceTree = "<group>"; };
+		FEC0B2F926AFA18200CAE4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC0B2FE26AFA18200CAE4EB /* burger to goUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "burger to goUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC0B30226AFA18200CAE4EB /* burger_to_goUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burger_to_goUITests.swift; sourceTree = "<group>"; };
+		FEC0B30426AFA18200CAE4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC0B2DF26AFA18100CAE4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC0B2F026AFA18200CAE4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC0B2FB26AFA18200CAE4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC0B2D926AFA18100CAE4EB = {
+			isa = PBXGroup;
+			children = (
+				FEC0B2E426AFA18100CAE4EB /* burger to go */,
+				FEC0B2F626AFA18200CAE4EB /* burger to goTests */,
+				FEC0B30126AFA18200CAE4EB /* burger to goUITests */,
+				FEC0B2E326AFA18100CAE4EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC0B2E326AFA18100CAE4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC0B2E226AFA18100CAE4EB /* burger to go.app */,
+				FEC0B2F326AFA18200CAE4EB /* burger to goTests.xctest */,
+				FEC0B2FE26AFA18200CAE4EB /* burger to goUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC0B2E426AFA18100CAE4EB /* burger to go */ = {
+			isa = PBXGroup;
+			children = (
+				FEC0B2E526AFA18100CAE4EB /* burger_to_goApp.swift */,
+				FEC0B2E726AFA18100CAE4EB /* ContentView.swift */,
+				FEC0B2E926AFA18200CAE4EB /* Assets.xcassets */,
+				FEC0B2EE26AFA18200CAE4EB /* Info.plist */,
+				FEC0B2EB26AFA18200CAE4EB /* Preview Content */,
+			);
+			path = "burger to go";
+			sourceTree = "<group>";
+		};
+		FEC0B2EB26AFA18200CAE4EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEC0B2EC26AFA18200CAE4EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEC0B2F626AFA18200CAE4EB /* burger to goTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC0B2F726AFA18200CAE4EB /* burger_to_goTests.swift */,
+				FEC0B2F926AFA18200CAE4EB /* Info.plist */,
+			);
+			path = "burger to goTests";
+			sourceTree = "<group>";
+		};
+		FEC0B30126AFA18200CAE4EB /* burger to goUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC0B30226AFA18200CAE4EB /* burger_to_goUITests.swift */,
+				FEC0B30426AFA18200CAE4EB /* Info.plist */,
+			);
+			path = "burger to goUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC0B2E126AFA18100CAE4EB /* burger to go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC0B30726AFA18200CAE4EB /* Build configuration list for PBXNativeTarget "burger to go" */;
+			buildPhases = (
+				FEC0B2DE26AFA18100CAE4EB /* Sources */,
+				FEC0B2DF26AFA18100CAE4EB /* Frameworks */,
+				FEC0B2E026AFA18100CAE4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "burger to go";
+			productName = "burger to go";
+			productReference = FEC0B2E226AFA18100CAE4EB /* burger to go.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEC0B2F226AFA18200CAE4EB /* burger to goTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC0B30A26AFA18200CAE4EB /* Build configuration list for PBXNativeTarget "burger to goTests" */;
+			buildPhases = (
+				FEC0B2EF26AFA18200CAE4EB /* Sources */,
+				FEC0B2F026AFA18200CAE4EB /* Frameworks */,
+				FEC0B2F126AFA18200CAE4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC0B2F526AFA18200CAE4EB /* PBXTargetDependency */,
+			);
+			name = "burger to goTests";
+			productName = "burger to goTests";
+			productReference = FEC0B2F326AFA18200CAE4EB /* burger to goTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEC0B2FD26AFA18200CAE4EB /* burger to goUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC0B30D26AFA18200CAE4EB /* Build configuration list for PBXNativeTarget "burger to goUITests" */;
+			buildPhases = (
+				FEC0B2FA26AFA18200CAE4EB /* Sources */,
+				FEC0B2FB26AFA18200CAE4EB /* Frameworks */,
+				FEC0B2FC26AFA18200CAE4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC0B30026AFA18200CAE4EB /* PBXTargetDependency */,
+			);
+			name = "burger to goUITests";
+			productName = "burger to goUITests";
+			productReference = FEC0B2FE26AFA18200CAE4EB /* burger to goUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC0B2DA26AFA18100CAE4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FEC0B2E126AFA18100CAE4EB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FEC0B2F226AFA18200CAE4EB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FEC0B2E126AFA18100CAE4EB;
+					};
+					FEC0B2FD26AFA18200CAE4EB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FEC0B2E126AFA18100CAE4EB;
+					};
+				};
+			};
+			buildConfigurationList = FEC0B2DD26AFA18100CAE4EB /* Build configuration list for PBXProject "burger to go" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC0B2D926AFA18100CAE4EB;
+			productRefGroup = FEC0B2E326AFA18100CAE4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC0B2E126AFA18100CAE4EB /* burger to go */,
+				FEC0B2F226AFA18200CAE4EB /* burger to goTests */,
+				FEC0B2FD26AFA18200CAE4EB /* burger to goUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC0B2E026AFA18100CAE4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC0B2ED26AFA18200CAE4EB /* Preview Assets.xcassets in Resources */,
+				FEC0B2EA26AFA18200CAE4EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC0B2F126AFA18200CAE4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC0B2FC26AFA18200CAE4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC0B2DE26AFA18100CAE4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC0B2E826AFA18100CAE4EB /* ContentView.swift in Sources */,
+				FEC0B2E626AFA18100CAE4EB /* burger_to_goApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC0B2EF26AFA18200CAE4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC0B2F826AFA18200CAE4EB /* burger_to_goTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC0B2FA26AFA18200CAE4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC0B30326AFA18200CAE4EB /* burger_to_goUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEC0B2F526AFA18200CAE4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC0B2E126AFA18100CAE4EB /* burger to go */;
+			targetProxy = FEC0B2F426AFA18200CAE4EB /* PBXContainerItemProxy */;
+		};
+		FEC0B30026AFA18200CAE4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC0B2E126AFA18100CAE4EB /* burger to go */;
+			targetProxy = FEC0B2FF26AFA18200CAE4EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEC0B30526AFA18200CAE4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEC0B30626AFA18200CAE4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC0B30826AFA18200CAE4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"burger to go/Preview Content\"";
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "burger to go/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicamorris.burger-to-go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC0B30926AFA18200CAE4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"burger to go/Preview Content\"";
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "burger to go/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicamorris.burger-to-go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEC0B30B26AFA18200CAE4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				INFOPLIST_FILE = "burger to goTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicamorris.burger-to-goTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/burger to go.app/burger to go";
+			};
+			name = Debug;
+		};
+		FEC0B30C26AFA18200CAE4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				INFOPLIST_FILE = "burger to goTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicamorris.burger-to-goTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/burger to go.app/burger to go";
+			};
+			name = Release;
+		};
+		FEC0B30E26AFA18200CAE4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				INFOPLIST_FILE = "burger to goUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicamorris.burger-to-goUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "burger to go";
+			};
+			name = Debug;
+		};
+		FEC0B30F26AFA18200CAE4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				INFOPLIST_FILE = "burger to goUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicamorris.burger-to-goUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "burger to go";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC0B2DD26AFA18100CAE4EB /* Build configuration list for PBXProject "burger to go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC0B30526AFA18200CAE4EB /* Debug */,
+				FEC0B30626AFA18200CAE4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC0B30726AFA18200CAE4EB /* Build configuration list for PBXNativeTarget "burger to go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC0B30826AFA18200CAE4EB /* Debug */,
+				FEC0B30926AFA18200CAE4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC0B30A26AFA18200CAE4EB /* Build configuration list for PBXNativeTarget "burger to goTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC0B30B26AFA18200CAE4EB /* Debug */,
+				FEC0B30C26AFA18200CAE4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC0B30D26AFA18200CAE4EB /* Build configuration list for PBXNativeTarget "burger to goUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC0B30E26AFA18200CAE4EB /* Debug */,
+				FEC0B30F26AFA18200CAE4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC0B2DA26AFA18100CAE4EB /* Project object */;
+}
